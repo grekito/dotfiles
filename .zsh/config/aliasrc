@@ -1,0 +1,2 @@
+alias ls='eza'
+alias gcc='gcc -Wall -Wextra -std=c99'
