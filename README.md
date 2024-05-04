@@ -6,7 +6,7 @@ This repo contains my main dotfiles
 
 Ensure you have the following installed on your system
 
-# Git
+### Git
 
 ```
 sudo pacman -S git
