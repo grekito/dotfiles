@@ -15,3 +15,8 @@ mkdir -p ~/.config/tmux/plugins && cd ~/.config/tmux/plugins/ && git clone https
 mkdir -p ~/.zsh/plugins/ && cd ~/.zsh/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 git clone https://github.com/zsh-users/zsh-autosuggestions
+
+cd
+
+sudo sed -i 's/#Color/Color/g' /etc/pacman.conf
+sudo sed -i 's/#NoProgressBar/ILoveCandy/g' /etc/pacman.conf 
