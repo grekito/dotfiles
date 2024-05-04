@@ -1,13 +1,10 @@
-sudo pacman --noconfirm --needed -Syu neovim
+sudo pacman --noconfirm --needed -Syu neovim zsh tmux stow
 
-mkdir -p ~/.config/nvim/lua/costa/
+cp -r .zsh ~/ && cp .zshenv ~/ 
 
-cp .config/nvim/lua/costa/lazy.lua ~/.config/nvim/lua/costa/lazy.lua
-cp .config/nvim/init.lua ~/.config/nvim/
-cp -r .config/nvim/lua/costa/core ~/.config/nvim/lua/costa/
-cp -r .config/nvim/lua/costa/plugins ~/.config/nvim/lua/costa/
+cd .config && cp -r kitty ~/.config/ && cp nvim ~/.config/ && cp qtile ~/.config/ 
 
-nvim
+cd .. && stow --adopt .
 
-# cp -r .config/nvim ~/.config/nvim
+
 
