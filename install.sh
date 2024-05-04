@@ -9,5 +9,5 @@ nvim
 vim.cmd :Lazy
 vim.cmd :q
 
-cp -r .config/nvim ~/.config/nvim
+# cp -r .config/nvim ~/.config/nvim
 
