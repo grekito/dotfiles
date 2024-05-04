@@ -8,8 +8,24 @@ Ensure you have the following installed on your system
 
 ### Git
 
+Install git to clone this repository
+
 ```
 sudo pacman -S git
+```
+
+I also use github-cli
+
+```
+sudo pacman -S github-cli
+```
+
+### Stow
+
+Install stow to create the required symlinks
+
+```
+sudo pacman -S stow
 ```
 
 ## Instalattion
