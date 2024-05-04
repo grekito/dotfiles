@@ -1,4 +1,6 @@
-sudo pacman --noconfirm --needed -Syu neovim zsh tmux stow eza
+sudo pacman --noconfirm --needed -Syu neovim zsh tmux stow eza unzip npm
+
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 chsh -s /usr/bin/zsh
 
