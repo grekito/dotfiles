@@ -4,6 +4,7 @@
 
 # Luke's config for the Zoomer Shell
 export ZSH=$HOME/.zsh
+export PATH=/home/costa/.local/bin:$PATH
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[magenta]%}[%{$fg[white]%}%n%{$fg[magenta]%}@%{$fg[blue]%}%M %{$fg[blue]%}%~%{$fg[magenta]%}]%{$reset_color%}$%b "
