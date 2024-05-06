@@ -2,17 +2,12 @@
 
 This repo contains my main dotfiles
 
-## Requirements
+### TMUX
 
-Ensure you have the following installed on your system
+Simple keymaping and plugins:
 
-### Git
-
-Install git to clone this repository
-
-```
-sudo pacman -S git
-```
+- Tpm plugin manager
+- Tokyonight colorscheme
 
 I also use github-cli
 
