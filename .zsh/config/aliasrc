@@ -1,2 +1,9 @@
 alias ls='eza'
 alias gcc='gcc -Wall -Wextra -std=c99'
+
+alias b99='mov-cli -s films brooklyn 99'
+alias ver='mov-cli -s films'
+
+alias disco='df -H /dev/nvme0n1p6'
+
+alias upsystem='sudo pacman -Syu && yay -Syu && paru -Syu'

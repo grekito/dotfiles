@@ -93,6 +93,7 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "t", lazy.spawn("kitty tmux")),
+    Key([mod], "n", lazy.spawn("notion-app")),
 ]
 
 # Add key bindings to switch VTs in Wayland.
